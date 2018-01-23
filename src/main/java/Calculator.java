@@ -15,4 +15,12 @@ public class Calculator {
     public float by(float a, float b){
         return a/b;
     }
+
+    public int raise(int a, int b){
+       int result = a;
+       for(int i = 0; i<b; i++){
+           result *=a;
+       }
+    return result;
+    }
 }
